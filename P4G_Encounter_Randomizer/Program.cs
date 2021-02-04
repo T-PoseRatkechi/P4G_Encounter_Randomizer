@@ -204,11 +204,11 @@ namespace P4G_Encounter_Randomizer
 
                     encounters[encounterIndex].Enemies = new ushort[]
                     {
-                        (randNumEnemies > 0) ? (ushort)GetValidRandomEnemy(config.DisabledRandomEncounterEnemies) : 0,
-                        (randNumEnemies > 1) ? (ushort)GetValidRandomEnemy(config.DisabledRandomEncounterEnemies) : 0,
-                        (randNumEnemies > 2) ? (ushort)GetValidRandomEnemy(config.DisabledRandomEncounterEnemies) : 0,
-                        (randNumEnemies > 3) ? (ushort)GetValidRandomEnemy(config.DisabledRandomEncounterEnemies) : 0,
-                        (randNumEnemies > 4) ? (ushort)GetValidRandomEnemy(config.DisabledRandomEncounterEnemies) : 0,
+                        (randNumEnemies > 0) ? (ushort)GetValidRandomEnemy(config.DisabledRandomEncounterEnemies) : (ushort)P4_EnemiesID.h000,
+                        (randNumEnemies > 1) ? (ushort)GetValidRandomEnemy(config.DisabledRandomEncounterEnemies) : (ushort)P4_EnemiesID.h000,
+                        (randNumEnemies > 2) ? (ushort)GetValidRandomEnemy(config.DisabledRandomEncounterEnemies) : (ushort)P4_EnemiesID.h000,
+                        (randNumEnemies > 3) ? (ushort)GetValidRandomEnemy(config.DisabledRandomEncounterEnemies) : (ushort)P4_EnemiesID.h000,
+                        (randNumEnemies > 4) ? (ushort)GetValidRandomEnemy(config.DisabledRandomEncounterEnemies) : (ushort)P4_EnemiesID.h000,
                     };
                 }
             }
