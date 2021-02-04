@@ -109,8 +109,8 @@ namespace P4G_Encounter_Randomizer
             Console.WriteLine("Config");
             Console.ResetColor();
             Console.WriteLine($"Boss Shuffle: {config.BossShuffle}");
-            Console.WriteLine($"Optional Boss Shuffle: {config.OptionalBossShuffle}");
             Console.WriteLine($"Mini Boss Shuffle: {config.MiniBossShuffle}");
+            Console.WriteLine($"Optional Boss Shuffle: {config.OptionalBossShuffle}");
             Console.WriteLine($"Min Enemies in Encounter: {config.MinEnemies}");
             Console.WriteLine($"Max Enemies in Encounter: {config.MaxEnemies}");
             Console.WriteLine($"Enemies Disabled: {config.DisabledRandomEncounterEnemies.Length}");
